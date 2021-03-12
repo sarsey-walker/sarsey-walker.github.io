@@ -45,3 +45,49 @@ a:hover{
 .button:hover{
     color: #4c5b84;
 }
+
+.h1s{
+    display: inline-block;
+    background-color: #3A4042;
+    width: 692px;
+    height: 184px;
+    margin-top: 80px;
+    margin-left: 74px;
+
+    box-shadow: 10px 10px 0 #000;
+    color: #F25A70;
+    font-family: 'Press Start 2P', monospace;
+    text-shadow: 4px 4px 0px #000000;
+    text-align: center;
+    
+}
+.h1s>h1{
+    color: #F25A70;
+    font-size: 40px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+
+}
+
+.h1s>h2{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+.first{
+    background-image: url("../../assets/img/backg01.png") ;
+    height: 100vh;
+}
+
+.buttons{
+    margin-top: 38px;
+    margin-left: 150px;
+
+}
+.buttons>a{
+    margin-right: 70px;
+}
