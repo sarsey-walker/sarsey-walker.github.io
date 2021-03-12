@@ -1,0 +1,26 @@
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+
+    margin-right: 30px;
+    line-height: 30px;
+
+    
+    transition: transform 200ms linear;
+}
+a::before{
+    content: "";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+a:hover{
+    color: #F25A70;
+    transform: scale(1.08);
+}
