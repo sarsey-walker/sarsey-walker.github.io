@@ -18,12 +18,14 @@ a{
     align-items: center;
     color: whitesmoke;
     font-size: 20px;
-    font-family: 'Fira Code', monospace;
     font-weight: 500;
     text-decoration: none;
 
     margin-right: 30px;
     line-height: 30px;
+
+    
+    transition: transform 200ms linear;
 }
 a::before{
     content: "";
@@ -34,6 +36,7 @@ a::before{
 }
 a:hover{
     color: #F25A70;
+    transform: scale(1.08);
 }
 .button{
     display: inline-block;
@@ -46,11 +49,10 @@ a:hover{
     color: #4c5b84;
 }
 
-.h1s{
+.titles{
     display: inline-block;
     background-color: #3A4042;
-    width: 692px;
-    height: 184px;
+    padding: 35px 65px;
     margin-top: 80px;
     margin-left: 74px;
 
@@ -61,24 +63,19 @@ a:hover{
     text-align: center;
     
 }
-.h1s>h1{
+.titles h1{
     color: #F25A70;
     font-size: 40px;
-    display: inline-flex;
-    align-items: center;
-    margin-top: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 
-.h1s>h2{
-    display: inline-flex;
-    align-items: center;
+.titles>h2{
     margin-top: 10px;
     color: #fff;
     font-size: 30px;
 }
-.first{
+.box-title{
     background-image: url("../../assets/img/backg01.png") ;
     height: 100vh;
 }
