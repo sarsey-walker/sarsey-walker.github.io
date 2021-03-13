@@ -61,12 +61,12 @@ header{
     
     height: 680px;
     width: 800px;
-    border-bottom: 10px solid black;
     
 }
 
 .box-skills{
     
+    border-top: 10px solid black;
     height: 680px;
-    border-bottom: 10px solid rgb(153, 0, 255);
+    border-bottom: 10px solid rgb(255, 208, 0);
 }
