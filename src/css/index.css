@@ -50,10 +50,15 @@ header{
 }
 
 .buttons{
-    margin-top: 38px;
-    margin-left: 150px;
+    /* margin-top: 38px;
+    margin-left: 150px; */
+    /* justify-content: center; */
 
 }
 .buttons>a{
     margin-right: 70px;
+}
+
+.wrapper{
+    display: inline-block;
 }
