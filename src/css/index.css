@@ -1,15 +1,19 @@
+h1, h2{
 
-header{
-    background-color: #4C5B84;
-    display: flex;
-    justify-content: space-between;
-    
-    border-bottom: 10px solid rgb(73, 73, 73);
-    padding: 10px 20px;
+    color: #fff;
+    font-family: "Press Start 2P", monospace;
 }
+.box-skills{
+    color: whitesmoke;
+}
+.buttons{
+    text-align: center;
+    line-height: 180px;
 
-.logo{
-    width: 60px;
+}
+.buttons>a{
+    margin-right: 70px;
+    
 }
 
 .box-section{
@@ -18,55 +22,36 @@ header{
     background-repeat: no-repeat;
     background-size: cover; */
     background: linear-gradient(180deg, #FF00F1 0%, #4770FF 58.75%, #005578 99.48%);
-
 }
 
-.titles{
-    display: inline-block;
-    background-color: #3A4042;
-    padding: 35px 65px;
-    margin-top: 80px;
-    margin-left: 74px;
-
-    box-shadow: 10px 10px 0 #000;
-    color: #F25A70;
-    font-family: 'Press Start 2P', monospace;
-    text-shadow: 4px 4px 0px #000000;
-    text-align: center;
-    
-}
-.titles h1{
-    color: #F25A70;
-    font-size: 40px;
-    margin-bottom: 20px;
-
-}
-
-.titles>h2{
-    margin-top: 10px;
-    color: #fff;
-    font-size: 30px;
-}
-
-.buttons{
-    text-align: center;
-    line-height: 200px;
-
-}
-.buttons>a{
-    margin-right: 70px;
-    
-}
 .wrapper{
-    
     height: 680px;
     width: 800px;
-    
 }
 
+/* dd img{
+    float: left;
+} */
+/* 
 .box-skills{
     
     border-top: 10px solid black;
     height: 680px;
     border-bottom: 10px solid rgb(255, 208, 0);
+    position: relative;
 }
+
+
+.skill{
+    
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skill h3{
+    display: inline;
+    vertical-align: text-top;
+} */

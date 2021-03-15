@@ -1,0 +1,26 @@
+
+.skill{
+    font-family: "Press Start 2P", monospace;
+    display: flex;
+}
+
+.skill img{
+    margin-right: 25px;
+}
+.skill h3{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.-skill{
+    border: 1px solid red;
+}
+.progress-bar{
+    background-color: #fff;
+    border: 5px solid black;
+    width: 320px;
+    height: 30px;
+}
+
+.progress-bar::-webkit-progress-bar, .progress-bar::-moz-progress-bar{
+    background-color: #7c5e99;
+}

@@ -1,0 +1,17 @@
+header{
+    background-color: #3a4042;
+    /* display: flex;
+    justify-content: space-between; */
+    
+    border-bottom: 10px solid rgb(73, 73, 73);
+    padding: 5px 10px;
+}
+nav{
+    background: url("../../assets/img/icon-code.png") no-repeat ;
+    text-align: right;
+    margin: 5px 20px;
+}
+/* 
+.logo{
+    width: 60px;
+} */
