@@ -1,13 +1,14 @@
 header{
-    background-color: #3a4042;
+    background-color: #0a1a31;
     /* display: flex;
     justify-content: space-between; */
     
     border-bottom: 10px solid #494949;
     padding: 5px 10px;
 }
-nav{
-    background: url("../../assets/img/icons8-idea-64.png") no-repeat ;
+.menu{
+    background: url("../../assets/img/pic-100.png") no-repeat left;
+    background-size: contain;
     text-align: right;
     margin: 5px 20px;
 }
@@ -15,7 +16,7 @@ nav{
 .logo{
     width: 60px;
 } */
-nav a::before{
+.menu a::before{
     content: "";
     background-color: #F25A70;
     width: 10px;
