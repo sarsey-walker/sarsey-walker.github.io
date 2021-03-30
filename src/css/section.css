@@ -20,3 +20,12 @@
     border-bottom: 10px solid #F25A70;
 }
 
+.section.description{
+    border-top: none;
+    background-color: #5e3386;
+    color: white;
+}
+.wrapper-description p{
+    font-size: 25px;
+    font-family: 'Fira Code', monospace;
+}
